@@ -1,0 +1,383 @@
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #003366;
+  }
+
+  
+  /* Container principal */
+  .container {
+    text-align: center;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 90%;
+    max-width: 800px;
+  }
+  
+  /* Título */
+  h1 {
+    margin-bottom: 10px;
+  }
+  
+  /* Grupo de entrada */
+  .input-group {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+  }
+  
+  input {
+    width: 70%;
+    padding: 10px;
+    border: 2px solid #003366;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+    font-size: 16px;
+  }
+  
+  button {
+    width: 30%;
+    background-color: #003366;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #00509e;
+  }
+  
+  /* Resultado */
+  .result {
+    margin-top: 20px;
+    text-align: left;
+    background: #eaf4fc;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: none;
+  }
+  
+  /* Tabelas */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  th, td {
+    border: 1px solid #003366;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #003366;
+    color: white;
+  }
+  
+  /* Indicador de carregamento */
+  .loading {
+    margin-top: 20px;
+    color: #003366;
+    font-size: 16px;
+    display: none;
+  }
+  
+  .mei-info {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-left: 4px solid #003366;
+    font-size: 14px;
+  }
+  
+  .mei-info a {
+    color: #003366;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  
+  .mei-info a:hover {
+    color: #00509e;
+  }
+  
+  .sintegra-info {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-left: 4px solid #003366;
+    font-size: 14px;
+  }
+  
+  .sintegra-info a {
+    color: #003366;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  
+  .sintegra-info a:hover {
+    color: #00509e;
+  }
+  
+  #newSearchBtn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #003366;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #newSearchBtn:hover {
+    background-color: #00509e;
+  }
+  
+  .info-limit {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff3cd;
+    border-left: 4px solid #ffc107;
+    font-size: 14px;
+  }
+  
+  .info-limit p {
+    margin: 0;
+    color: #856404;
+  }
+  
+
+ /* Header Styling */
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #003366; /* Azul escuro */
+    padding: 15px 20px;
+    color: white;
+    font-family: Arial, sans-serif;
+    width: 100%; /* Ocupa toda a largura da tela */
+    position: fixed; /* Fixa no topo */
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Ajusta o conteúdo da página para não sobrepor o header */
+  body {
+    margin: 0;
+    padding-top: 70px; /* Adiciona espaço para o header fixo */
+  }
+  
+  /* Logo Styling */
+  .logo span {
+    font-size: 24px;
+    font-family: 'San Andreas', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-left: 20px;
+  }
+  
+  /* Contact Styling */
+  .contact {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  /* WhatsApp Styling */
+  .whatsapp {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .whatsapp img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* Call-to-Action Button */
+  .cta-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #003366;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 100px;
+    background: white;
+    transition: all 0.3s ease;
+    margin-right: 6px;
+  }
+  
+  .cta-button:hover {
+    background: #00509e; /* Azul mais claro no hover */
+    color: white;
+    border-color: #00509e;
+  }
+  
+  /* Header Styling */
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #003366; /* Azul escuro */
+    padding: 15px 20px;
+    color: white;
+    font-family: Arial, sans-serif;
+    width: 100%; /* Ocupa toda a largura da tela */
+    position: fixed; /* Fixa no topo */
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Ajusta o conteúdo da página para não sobrepor o header */
+  body {
+    margin: 0;
+    padding-top: 70px; /* Adiciona espaço para o header fixo */
+  }
+  
+  /* Logo Styling */
+  .logo span {
+    font-size: 24px;
+    font-family: 'Des Malers Fraktur', sans-serif; /* Usa a fonte personalizada */
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  /* Contact Styling */
+  .contact {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  /* WhatsApp Styling */
+  .whatsapp {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .whatsapp img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* Call-to-Action Button */
+  .cta-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #003366;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 5px;
+    background: white;
+    transition: all 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background: #00509e; /* Azul mais claro no hover */
+    color: white;
+    border-color: #00509e;
+  }
+  
+  /* Responsividade para Mobile */
+  @media (max-width: 768px) {
+    .site-header {
+      flex-direction: column; /* Empilha os itens no mobile */
+      padding: 10px;
+    }
+  
+    .logo span {
+      font-size: 20px; /* Reduz o tamanho da logo */
+      text-align: center; /* Centraliza o texto */
+    }
+  
+    .contact {
+      flex-direction: column; /* Empilha os itens de contato */
+      gap: 10px;
+      align-items: center; /* Centraliza no eixo horizontal */
+    }
+  
+    .cta-button {
+      width: 90%; /* Botão ocupa quase toda a largura no mobile */
+      text-align: center;
+    }
+  
+    .whatsapp {
+      font-size: 14px; /* Reduz o tamanho do texto no WhatsApp */
+    }
+  
+    .whatsapp img {
+      width: 18px; /* Ajusta o tamanho do ícone */
+      height: 18px;
+    }
+  }
+  
+
+  
+  
+/* Rodapé */
+.site-footer {
+    text-align: center;
+    background-color: #003366; /* Fundo azul escuro */
+    color: white;
+    font-size: 12px; /* Texto pequeno */
+    padding: 10px;
+    position: fixed; /* Fixa o rodapé na parte inferior */
+    bottom: 0;
+    width: 100%; /* Ocupa toda a largura da tela */
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve no topo do rodapé */
+  }
+  
+  .site-footer p {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px; /* Espaçamento entre o texto e o ícone */
+  }
+  
+  .site-footer .instagram-link img {
+    width: 16px; /* Ícone pequeno */
+    height: 16px;
+    vertical-align: middle;
+    filter: brightness(0) invert(1); /* Torna o ícone branco */
+    transition: all 0.3s ease; /* Animação para hover */
+  }
+  
+  .site-footer .instagram-link img:hover {
+    filter: brightness(0.8); /* Efeito ao passar o mouse */
+  }
+  
