@@ -93,7 +93,7 @@ function consultarCNPJ() {
           ${createTable("Contato", contactInfo)}
           ${createTable("Informações Adicionais", additionalInfo)}
           <div class="mei-info">
-            <p>Para consultar o nome e CPF do proprietário deste MEI, clique no link abaixo e faça login com sua conta gov.br para emitir o CCMEI:</p>
+            <p>Para consultar o nome e CPF do proprietário deste CNPJ casp ele seja um MEI, clique no link abaixo e faça login com sua conta gov.br para emitir o CCMEI:</p>
             <a href="https://mei.receita.economia.gov.br/certificado/login?nextRoute=%2F" target="_blank">
               Consulte aqui o Nome e CPF do Proprietário Caso seja um MEI
             </a>
